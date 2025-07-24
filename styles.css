@@ -280,3 +280,30 @@
   font-size: 16px;
   padding: 19px 540px 19px 20px;
 }
+
+/* Footer  */
+.footer-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 160px 50px 160px;
+}
+.footer-content {
+  max-width: 360px;
+}
+.footer-content p {
+  font-size: 22px;
+  margin-top: 16px;
+  color: #8987a1;
+}
+.footer-menu-1 ul li,
+.footer-menu-2 ul li {
+  list-style: none;
+  font-size: 20px;
+  margin: 32px;
+  color: #8987a1;
+}
+.social-icons img {
+  margin-right: 24px;
+  margin-bottom: 200px;
+}

@@ -323,3 +323,18 @@
   margin-right: 24px;
   margin-bottom: 200px;
 }
+
+/* Responsive section  */
+
+@media (max-width: 576px) {
+  /* nav  */
+  .home,
+  .shop,
+  .about-us {
+    display: none;
+  }
+  /* banner  */
+  .banner-parent {
+    flex-direction: column-reverse;
+  }
+}

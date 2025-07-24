@@ -123,3 +123,139 @@
 .card .btn {
   width: 100%;
 }
+
+/* Plants lover section  */
+.plants-lover-parent {
+  display: flex;
+  gap: 60px;
+  margin-top: 210.13px;
+}
+.plants-lover-image {
+  position: relative;
+}
+.plants-lover-parent img {
+  height: 597px;
+}
+.plants-lover-image .badge {
+  position: absolute;
+  max-width: 286px;
+  height: 286px;
+  left: 347px;
+  bottom: 438px;
+}
+.plants-lover-content {
+  padding: 38px 0 38px 0;
+  max-width: 540px;
+}
+.plants-lover-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.plants-lover-content ul li {
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+/* Latest-deal */
+.latest-deal-parent {
+  margin-top: 133px;
+}
+
+.latest-deal-content {
+  text-align: center;
+}
+
+.latest-deal-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.latest-deal-content p {
+  font-size: 22px;
+  font-weight: bold;
+  max-width: 888px;
+  margin: 0 auto;
+}
+/* deal image  */
+.deal-image-parent {
+  display: flex;
+  gap: 28px;
+  margin-top: 120px;
+}
+
+.deal-image-left-top {
+  background-image: url(./assets/deal-bloom.png);
+  width: 367px;
+  height: 201px;
+  margin-bottom: 25px;
+  border-radius: 14px;
+  position: relative;
+}
+.deal-image-left-top::before,
+.deal-image-left-bottom::before,
+.deal-image-right::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+.deal-image-left-top .text,
+.deal-image-left-bottom .text,
+.deal-image-right .text {
+  position: relative;
+  z-index: 1;
+}
+
+.deal-image-left-bottom {
+  background-image: url(./assets/deal-ana.png);
+  width: 367px;
+  height: 201px;
+  border-radius: 14px;
+  position: relative;
+}
+.deal-image-right {
+  background-image: url(./assets/deal-zabo.png);
+  width: 753px;
+  height: 423px;
+  border-radius: 22px;
+  position: relative;
+}
+.deal-image-left-top h3,
+.deal-image-left-bottom h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 19px;
+}
+.deal-image-left-top a,
+.deal-image-left-bottom a {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.deal-image-left-top .text {
+  padding: 65px 50px;
+  text-align: center;
+}
+.deal-image-left-bottom .text {
+  padding: 65px 50px;
+  text-align: center;
+}
+.deal-image-right .text h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 15px;
+}
+.deal-image-right .text a {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+}
+.deal-image-right .text {
+  padding: 172px 100px 151px 100px;
+  text-align: center;
+}

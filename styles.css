@@ -327,6 +327,11 @@
 /* Responsive section  */
 
 @media (max-width: 576px) {
+  .container {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
   /* nav  */
   .home,
   .shop,
@@ -342,8 +347,8 @@
   .banner-parent {
     flex-direction: column-reverse;
   }
-  .banner-img {
-    /* width: 393px; */
+  .banner-img img {
+    max-width: 100%;
   }
   .banner-content {
     max-width: 100%;
@@ -425,7 +430,7 @@
   }
   .deal-image-left-top,
   .deal-image-left-bottom {
-    padding: 20px 45px;
+    padding: 20px 29px;
     width: 100%;
 
     background-repeat: no-repeat;
@@ -486,16 +491,23 @@
     flex-direction: column;
     max-width: 100%;
     border: 1px solid black;
-
-    /* text-align: left; */
+    padding: 50px 14px 50px 20px;
   }
-  .footer-menu-1 ul li,
+  .footer-menu-1 ul li {
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    color: #8987a1;
+  }
   .footer-menu-2 ul li {
     list-style: none;
     font-size: 20px;
-    margin: 32px;
-    margin-left: 50px;
-    text-align: left;
+    text-align: start;
     color: #8987a1;
+  }
+  .footer-menu-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
   }
 }

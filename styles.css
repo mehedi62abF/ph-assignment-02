@@ -393,6 +393,9 @@
     font-size: 14px;
     margin-bottom: 20px;
   }
+  .plants-lover-parent img {
+    width: 100%;
+  }
   /* latest deal  */
   .latest-deal-content h1 {
     font-size: 24px;
@@ -463,5 +466,23 @@
     border: none;
     font-size: 16px;
     font-weight: 600;
+  }
+  /* Footer  */
+  .footer-parent {
+    flex-direction: column;
+
+    /* text-align: left; */
+  }
+  .footer-menu-1 ul li,
+  .footer-menu-2 ul li {
+    list-style: none;
+    font-size: 20px;
+    margin: 32px;
+    margin-left: 50px;
+    text-align: left;
+    color: #8987a1;
+  }
+  .footer-content {
+    max-width: 100%;
   }
 }

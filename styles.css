@@ -357,6 +357,20 @@
     font-size: 14px;
   }
   /* our plants  */
+  .card-body-text {
+    padding: 30px 37px;
+    text-align: center;
+  }
+  .card-body-text h1 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #111111;
+  }
+  .card-body-text h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
   .our-plants-parent .content h1 {
     font-size: 24px;
     font-weight: 700;
@@ -364,7 +378,7 @@
   }
   .our-plants-parent .content p {
     font-size: 14px;
-    width: 336px;
+    width: 100%;
   }
   .card-parent {
     grid-template-columns: repeat(2, 1fr);
@@ -450,7 +464,7 @@
     background-size: cover;
   }
   .input {
-    padding: 14px 110px 14px 20px;
+    padding: 14px 20px 14px 20px;
     font-size: 16px;
   }
   .news-letter-content h1 {
@@ -470,6 +484,8 @@
   /* Footer  */
   .footer-parent {
     flex-direction: column;
+    max-width: 100%;
+    border: 1px solid black;
 
     /* text-align: left; */
   }
@@ -481,8 +497,5 @@
     margin-left: 50px;
     text-align: left;
     color: #8987a1;
-  }
-  .footer-content {
-    max-width: 100%;
   }
 }

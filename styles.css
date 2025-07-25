@@ -382,7 +382,7 @@
   }
   /* our plants  */
   .card-body-text {
-    padding: 30px 37px;
+    padding: 20px 5px;
     text-align: center;
   }
   .card-body-text h1 {
@@ -410,7 +410,7 @@
   .btn {
     background-color: #e95a08;
     color: white;
-    padding: 19px 30.5px;
+    padding: 19px 20.5px;
     border: none;
     font-size: 16px;
     font-weight: 600;
@@ -449,7 +449,7 @@
   }
   .deal-image-left-top,
   .deal-image-left-bottom {
-    padding: 20px 29px;
+    padding: 20px 20px;
     width: 100%;
 
     background-repeat: no-repeat;
@@ -473,7 +473,7 @@
     color: white;
   }
   .deal-image-right .text {
-    padding: 80px;
+    padding: 75px;
     text-align: center;
   }
   /* News letter  */
@@ -488,7 +488,7 @@
     background-size: cover;
   }
   .input {
-    padding: 14px 5px 14px 20px;
+    padding: 14px 2px 14px 8px;
     font-size: 16px;
   }
   .news-letter-content h1 {
@@ -517,7 +517,7 @@
     font-size: 15px;
     text-align: left;
     color: #8987a1;
-    margin-right: 240px;
+    margin-right: 200px;
     margin-bottom: 20px;
   }
   .footer-menu-2 ul li {
@@ -525,13 +525,13 @@
     font-size: 15px;
     text-align: start;
     color: #8987a1;
-    margin-right: 200px;
+    margin-right: 180px;
   }
   .footer-content p {
     font-size: 16px;
   }
   .social-icons {
-    margin-right: 45px;
+    margin-right: 38px;
     margin-bottom: 10px;
   }
 }
